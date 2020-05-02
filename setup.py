@@ -4,13 +4,13 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
     name='django-db-log-requestid',
 
-    version='1.0.0',
+    version='1.1.0',
 
     description='',
     long_description=long_description,
